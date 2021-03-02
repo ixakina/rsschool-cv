@@ -109,6 +109,11 @@ h2 {
   border-bottom: 2px solid black;
   padding-bottom: 10px;
 }
+img {
+  width: auto;
+  height: 150px;
+}
+.photo,
 .contacts_name,
 .aim_name,
 .exper_date,
