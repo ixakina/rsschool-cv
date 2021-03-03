@@ -109,7 +109,7 @@ h2 {
   border-bottom: 2px solid black;
   padding-bottom: 10px;
 }
-img {
+.cv-photo {
   width: auto;
   height: 150px;
 }
@@ -187,4 +187,22 @@ span {
 .qualities {
   padding-bottom: 10px;
   margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(55 146 199 / 11%);
+  height: 80px;
+}
+
+footer img {
+  width: 100px;
+}
+
+.link-git,
+span {
+  font-weight: bold;
+  font-size: 20px;
 }
