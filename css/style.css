@@ -178,7 +178,8 @@ span {
   margin: 0 0 5px 0px;
 }
 
-.skills {
+.skills,
+.code-examples {
   margin-bottom: 10px;
   border-bottom: 2px solid black;
   padding-bottom: 10px;
