@@ -106,7 +106,20 @@
           </p>
         </div>
       </div>
-
+      <div class="code-examples">
+        <h2>Code examples</h2>
+        <pre>
+ 
+          function squares(x, n) {
+            let arr = [x];
+            if (n <= 0) return [];
+            for (let i = 1; i < n; i++) {
+              arr[i] = arr[i - 1] ** 2;
+            }
+            return arr;
+          }
+        </pre>
+      </div>
       <div class="skills">
         <h2>Skills</h2>
         <ul class="skills-list">
