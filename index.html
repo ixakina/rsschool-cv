@@ -136,7 +136,7 @@
         function digPow(n, p) {
             let newN = String(n);
             let sum = 0;
-            for (let i = 0; i < newN.length; i++) {
+            for (let i = 0; i &lt; newN.length; i++) {
             sum += newN[i] ** (p + i);
             }
             if (Number.isInteger(sum / n)) {
